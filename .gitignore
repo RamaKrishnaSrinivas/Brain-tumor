@@ -1,0 +1,16 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Uploads
+uploads/
+
+# Model
+brain_tumor_model.keras
+*.keras
+
+# Dataset
+archive.zip
+archive/
+*.zip
