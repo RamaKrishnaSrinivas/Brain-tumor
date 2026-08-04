@@ -34,7 +34,7 @@ if not os.path.exists(MODEL_PATH):
         "brain_tumor_model.keras not found."
     )
 
-model = load_model("brain_tumor_model.keras")
+model = load_model(MODEL_PATH)
 
 with open(CLASS_PATH, "r") as f:
     class_names = json.load(f)
